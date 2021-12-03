@@ -1,0 +1,237 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
+/* MOVING EYE */
+
+.eyes{
+  position:absolute;
+  transform: translateY(-50%);
+  text-align: center;
+  right: 900px;
+  top: 35px;
+
+
+
+}
+
+.eye{
+  width: 50px;
+  height: 30px;
+  background: #d0e8f2;
+  display: inline-block;
+  margin: 15px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.ball {
+  width: 15px;
+  height: 15px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  border: 3px solid #FFF;
+
+}
+
+/* Navigation Bar */
+.marginna{
+  margin-left: 800px;
+}
+.navbar {
+overflow: hidden;
+  top: 0;
+ width: 100%;
+    position: fixed;
+}
+.navbar-Heading{
+  color: #C71212;
+  font-size: 1.2rem;
+}
+.nav-center-text {
+  margin-left: 1%;
+}
+
+.nav-link{
+  color: #FFF;
+  margin: 0 12px;
+}
+.navbar-default {
+    height: 65px;
+    background-color: #2F2E2E;
+
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #C71212; /*Sets the text hover color on navbar*/
+}
+.navbar-toggler-icon{
+  background-image: url("images/OptionIcon.jpg");
+}
+
+
+
+ /* GamingEuro-Intro */
+.FpageHeading{
+color: #000000;
+animation-name: example;
+animation-duration: 10s;
+}
+@keyframes example {
+  from {color: #000000;}
+  to {color: #FFF;}
+}
+ .IntroLogo {
+   padding-top: 280px;
+   width: 8%;
+   height: auto;
+   justify-content: center;
+ }
+
+.homePageControllerImage {
+  height: 100vh;
+  width: 100%;
+  background-image: url("images/HomepageController.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+}
+
+
+/* Gaming */
+
+.GamingHeading{
+  font-size: 3rem;
+  text-align: center;
+  padding: 80px 0 50px 0;
+  color: #FFF;
+
+}
+
+.GamingSectionBackgroundImage {
+  height: 100vh;
+  width: 100%;
+  background-image: url("images/HomepageBG.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.row {
+  padding:0 24%;
+}
+
+
+.GamingImages {
+  margin: 12px;
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 5px;
+  border: 2px solid #FFF;
+  justify-content: center;
+}
+.GamingImages:hover{
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+
+
+/* SlideShow */
+#SlideShows {
+  text-align: center;
+  background-image: url("images/bgImage.jpg");
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.carousel-item {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.slideshowHeading{
+  padding-top: 75px;
+  font-size: 3rem;
+  color: #FFF;
+}
+
+
+
+/* ContactUs */
+#ContactUs-Section {
+background-image: url("images/contactus.jpeg");
+background-repeat: no-repeat;
+padding: 100px 26%;
+background-size: cover;
+background-attachment: fixed;
+
+
+}
+.contactusHeading{
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 50px;
+  color: #c5ecfd;
+}
+.ContactUsForm{
+display: flex;
+flex-direction: column;
+width: 350px;
+height: 40px;
+margin: 30px 20px 11.5px 12px;
+background: transparent;
+border: 0;
+border-bottom: 2px solid #c5ecfd;
+color: #c5ecfd;
+}
+
+.textareaForm {
+  margin-top: 35px;
+  display: flex;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #c5ecfd;
+  color: #c5ecfd;
+}
+
+.btn{
+  margin-bottom: 25px;
+}
+.Flex-Contact {
+  display: flex;
+  justify-content: center;
+  background: rgba(0,0,0,0.8);
+  border-radius: 20px;
+}
+
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #2F2E2E;
+  color: #FFF;
+}
+
+.footer-img {
+  padding: 0 0.6% 2%;
+}
+
+.footer-p {
+  font-size: 1rem;
+}
